@@ -1,0 +1,9 @@
+.historial{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+.historial img{
+height: 156px;
+width: 156px;
+}

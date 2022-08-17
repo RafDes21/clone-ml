@@ -1,0 +1,24 @@
+.populares{
+    width: 1200px;
+}
+.populares .producto{
+    height: 170px;
+    width: 170px;
+    background-color: #ffffff;
+    border: 1px solid #ebebeb;
+   
+}
+.populares .producto h2{
+font-size: 48px;
+color: #3483fa;
+text-align: center;
+
+}
+.populares .producto {
+    font-size: 15px;
+    text-align: center;
+}
+.populares-arriba{
+    display: flex;
+    justify-content: space-between;
+}

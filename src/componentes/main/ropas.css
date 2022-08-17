@@ -1,0 +1,13 @@
+.accesorios{
+    display: flex;
+    justify-content: space-between;
+}
+.seccion{
+    width: 100%;
+}
+.accesorios img{
+    width: 184px;
+    height: 184px;
+    margin: 8px 0;
+    border-radius: 7px;
+}

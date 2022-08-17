@@ -1,0 +1,58 @@
+.pagos {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+.pagos .pagos__caja {
+  width: 400px;
+  height: 242px;
+  padding: 40px 50px;
+}
+.pagos h3 {
+  font-size: 20px;
+  text-align: center;
+  color: #4b4b4b;
+  font-weight: 400;
+}
+.pagos img {
+  margin-bottom: 20px;
+  margin-left: 40%;
+}
+.pagos p {
+  font-size: 15px;
+  text-align: center;
+  color: #999999;
+}
+.pagos h4 {
+  text-align: center;
+  margin-top: -20px;
+ 
+}
+.pagos a {
+  font-size: 13px;
+  text-decoration: none;
+  transform: translateX(50px);
+  color: #3483fa;
+}
+.caja1 {
+  position: relative;
+}
+.caja1::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 60px;
+  border-right: 2px solid #ebebeb;
+  height: 120px;
+}
+.caja2 {
+    position: relative;
+  }
+  .caja2::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 60px;
+    border-right: 2px solid #ebebeb;
+    height: 120px;
+  }

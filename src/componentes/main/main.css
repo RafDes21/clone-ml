@@ -1,0 +1,178 @@
+main h2{
+  margin: 20px 0;
+}
+.tarjetas {
+  display: flex;
+  width: 1200px;
+  height: 90px;
+  margin: 40px auto;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+main .tarjetas h3 {
+  font-size: 18px;
+}
+main .tarjetas a {
+  font-size: 14px;
+  text-decoration: none;
+}
+main .tarjetas .tarjetas__unicas img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+main .tarjetas .tarjetas__unicas {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+}
+main .tarjetas .tarjetas__unicas h3 {
+  line-height: 2px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+main .tarjetas .tarjeta1 {
+  width: 240px;
+}
+main .tarjetas .tarjeta2 {
+  width: 245px;
+}
+main .tarjetas .tarjeta3 {
+  width: 248px;
+}
+main .tarjetas .tarjeta4 {
+  width: 174px;
+}
+main .tarjetas .tarjeta5 {
+  width: 100px;
+  border-left: 1px solid #ebebeb;
+}
+.bloques {
+  height: 390px;
+  width: 1200px;
+  margin: auto;
+}
+.bloques h2 {
+  font-size: 26px;
+  color: #666666;
+  font-weight: 300;
+}
+.bloques a {
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 400;
+  margin-left: 20px;
+}
+.card-img {
+  display: flex;
+  justify-content: space-between;
+}
+.cards {
+  width: 224px;
+  height: 300px;
+}
+.cards .img {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.bloques .beneficio {
+  height: 250px;
+  width: 100%;
+  background-color: #0064ff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 7px;
+  margin: 30px auto;
+}
+.bloques .beneficio .beneficio__paramount img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.bloques .beneficio .beneficio__paramount {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.beneficio .paramount {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding-left: 63px;
+  color: #ffffff;
+}
+.beneficio .paramount img {
+  width: 84px;
+  height: 84px;
+  border-radius: 6px;
+}
+.beneficio .descuento {
+  margin-left: 30px;
+  line-height: 1;
+}
+.beneficio .descuento h3 {
+  font-size: 22px;
+}
+.beneficio .descuento span {
+  font-size: 18px;
+}
+.bloques .barra {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 7px;
+  margin: 110px auto;
+}
+.bloques .barra img{
+  height: 100%;
+  width: 1200px;
+  object-fit:fill;
+  border-radius: 7px;
+}
+.bloques .cajas{
+  display: flex;
+  width: 100%;
+  height: 250px;
+  justify-content: space-between;
+}
+.bloques .cajas .caja{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;border-radius: 7px;
+  overflow: hidden;
+  color: #4b4b4b;
+  width: 49%;
+}
+.bloques .cajas .caja h4{
+  font-size: 12px;
+  letter-spacing: 4px;
+}
+.bloques .cajas .caja p{
+  font-size: 28px;
+  font-weight: 500;
+}
+.bloques .cajas .caja__ofertas{
+ margin: auto 35px;
+ 
+}
+.bloques .cajas .caja button{
+  background-color: #3483fa;
+  color: #ffffff;
+  font-size: 14px;
+  padding:9px 15px;
+  border: none;
+  border-radius: 5px;
+}
+.bloque-ropa{
+  height: 460px;
+}
+.bloque-historial{
+  height: 210px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}

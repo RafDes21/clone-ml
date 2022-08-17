@@ -1,0 +1,15 @@
+.footer {
+  background-color: #ffffff;
+  padding-top: 50px;
+  height: 400px;
+}
+.derechos {
+  width: 100%;
+  background-color: #fff159;
+  height: 100px;
+  padding-top: 30px;
+}
+.derechos h2 {
+  font-size: 20px;
+  text-align: center;
+}

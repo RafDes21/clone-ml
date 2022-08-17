@@ -1,0 +1,43 @@
+.cancelar {
+  width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.cancelar .cancelar__caja {
+  width: 45%;
+  border: 1.5px solid #ebebeb;
+ 
+  border-radius: 7px;
+}
+.cancelar .cancelar__caja ul {
+  margin: 10px 0;
+}
+.distinto a{
+    color: #999999;
+}
+.cancelar .cancelar__caja ul li {
+  list-style: none;
+  text-align: center;
+}
+.cancelar .cancelar__caja ul li a {
+  text-decoration: none;
+}
+.cancelar .cancelar__caja h4,
+p {
+  text-align: center;
+  font-size: 14px;
+}
+.cancelar .cancelar__caja p {
+  margin-top: 30px;
+  line-height: 0.5;
+  color: #999999;
+}
+.cancelar .cancelar__caja h4 {
+  line-height: 1;
+}
+.cancelar .cancelar__caja h4 a{
+    text-decoration: none;
+    color: #3483fa;
+  }
