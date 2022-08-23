@@ -1,0 +1,52 @@
+.navres {
+  width: 100%;
+  background-color: #fff159;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  border-top: 1px solid #ebebeb;
+}
+.login {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.login span {
+  font-size: 64px;
+  color: #999999;
+  margin-top: -20px;
+}
+.login p {
+  font-size: 14px;
+}
+.login .texto {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.botones {
+  width: 90%;
+  margin: 0 auto 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.botones .btn2,
+.btn1 {
+  width: 49%;
+  padding: 5px 0;
+  border: none;
+  font-weight: 400;
+  border-radius: 5px;
+}
+.botones .btn1 {
+  background-color: #1259c3;
+  color: #ffffff;
+}
+.botones .btn2 {
+  color: #1259c3;
+  border: 1px solid #1259c3;
+}
+@media screen and (min-width: 900px) {
+  .navres {
+    display: none;
+  }
+}

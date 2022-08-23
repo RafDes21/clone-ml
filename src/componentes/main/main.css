@@ -1,55 +1,7 @@
 main h2{
   margin: 20px 0;
 }
-.tarjetas {
-  display: flex;
-  width: 1200px;
-  height: 90px;
-  margin: 40px auto;
-  justify-content: space-between;
-  box-shadow: rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
-  background-color: #ffffff;
-}
-main .tarjetas h3 {
-  font-size: 18px;
-}
-main .tarjetas a {
-  font-size: 14px;
-  text-decoration: none;
-}
-main .tarjetas .tarjetas__unicas img {
-  height: 40px;
-  width: 40px;
-  margin-right: 10px;
-}
-main .tarjetas .tarjetas__unicas {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding-left: 20px;
-}
-main .tarjetas .tarjetas__unicas h3 {
-  line-height: 2px;
-  margin-top: 10px;
-  font-weight: 400;
-}
-main .tarjetas .tarjeta1 {
-  width: 240px;
-}
-main .tarjetas .tarjeta2 {
-  width: 245px;
-}
-main .tarjetas .tarjeta3 {
-  width: 248px;
-}
-main .tarjetas .tarjeta4 {
-  width: 174px;
-}
-main .tarjetas .tarjeta5 {
-  width: 100px;
-  border-left: 1px solid #ebebeb;
-}
+
 .bloques {
   height: 390px;
   width: 1200px;
@@ -70,13 +22,13 @@ main .tarjetas .tarjeta5 {
   display: flex;
   justify-content: space-between;
 }
-.cards {
+/* .cards {
   width: 224px;
   height: 300px;
 }
 .cards .img {
   border-bottom: 1px solid #ebebeb;
-}
+} */
 
 .bloques .beneficio {
   height: 250px;

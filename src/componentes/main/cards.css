@@ -1,0 +1,8 @@
+.cards {
+    width: 224px;
+    height: 300px;
+  }
+  .cards .img {
+    border-bottom: 1px solid #ebebeb;
+  }
+  

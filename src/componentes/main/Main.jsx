@@ -11,6 +11,7 @@ const Main = () => {
   return (
     <main>
       <Tarjetas />
+
       <div className="bloques">
         <h2>
           Basado en tu última vista

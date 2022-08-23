@@ -9,6 +9,7 @@ const NavBar = () => {
       <div className="container__abajo-direccion">
         <span className="locacion"><IoLocationOutline /></span>
         <span className="envio">Enviar a fulano </span> <span className="direccion">Dirección</span> 
+        <span className="envioCapital">Enviar a Capital Federal</span>
       </div>
       <div className="navegacion">
         <ul>
@@ -23,8 +24,10 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="datos">
-       <span> <BsPersonCircle/> Fulano</span> <span>Mis compras</span><span>Favoritos</span><span><VscBell/></span><span><BsCart2/></span>
+       <span className="logo-persona"> <BsPersonCircle/></span> <span className="fulano">Fulano</span><span>Mis compras</span><span>Favoritos</span><span className="logo-bell"><VscBell/></span><span className="logo-car"><BsCart2/></span>
       </div>
+      <span className="cart"><BsCart2/></span>
+     
     </>
   );
 };

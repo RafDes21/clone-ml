@@ -6,12 +6,28 @@
   padding-top: 8px;
 }
 header {
-  width: 1200px;
+  width: 90%;
   margin: 0 auto;
+}
+.header{
+  width: 100vw;
+  height: 850px;
+  background-color: #fff159;
+  padding: 0 15px;
+  padding-top: 8px;
+}
+.toogler {
+  font-size: 30px;
+  display: none;
+  cursor: pointer;
 }
 .container__arriba {
   display: flex;
   justify-content: space-between;
+}
+.container__arriba .logo-secundario {
+  height: 32px;
+  width: 44px;
 }
 .container__arriba .logo {
   width: 134px;
@@ -66,8 +82,7 @@ header {
 }
 .container__abajo a {
   text-decoration: none;
-  color:#333333 ;
- 
+  color: #333333;
 }
 .container__abajo-direccion {
   width: 114px;
@@ -94,6 +109,9 @@ header {
   left: 30px;
   font-size: 14px;
 }
+.container__abajo-direccion .envioCapital {
+  display: none;
+}
 .container__abajo .navegacion {
   height: 39px;
   width: 598px;
@@ -106,4 +124,309 @@ header {
   font-size: 14px;
   justify-content: space-between;
   align-items: center;
+}
+.container__abajo .cart {
+  display: none;
+}
+@media screen and (max-width: 484px) {
+  .container-fluid {
+    background-color: #481ab3;
+  }
+  .toogler {
+    display: block;
+  }
+}
+@media screen and (min-width: 485px) and (max-width: 768px) {
+  .container-fluid {
+    width: 100%;
+    height: 90px;
+    background-color: #fff159;
+  }
+  header {
+    width: 95%;
+    background-color: #fff159;
+  }
+  .container__arriba {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .toogler {
+    display: block;
+    margin-right: 25px;
+    margin-left: 10px;
+    line-height: 0.5;
+  }
+  .container__arriba .logo-secundario {
+    height: 42px;
+    width: 70px;
+
+    transform: translateX(-12px);
+  }
+  .container__arriba .logo,
+  .logo2 {
+    display: none;
+  }
+  .container__arriba .buscador {
+    height: 35px;
+    margin-left: -15px;
+    position: relative;
+  }
+  .container__arriba .buscador input {
+    height: 30px;
+    width: 95%;
+    position: absolute;
+    right: 0;
+    top: 6px;
+  }
+  .container__arriba .buscador span {
+    position: absolute;
+    left: 0;
+    top: -5px;
+    border: none;
+  }
+  .container__abajo .navegacion {
+    display: none;
+  }
+  .container__abajo .datos {
+    display: none;
+  }
+  .container__abajo .cart {
+    display: block;
+    font-size: 25px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
+  .container__abajo-direccion .locacion {
+    font-size: 23px;
+    line-height: 2;
+  }
+  .container__abajo-direccion .envio {
+    display: none;
+  }
+  .container__abajo-direccion .direccion {
+    display: none;
+  }
+  .container__abajo-direccion .envioCapital {
+    display: inline;
+    margin-left: 20px;
+  }
+  .container__abajo-direccion {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  
+  header {
+    width: 100%;
+  }
+  .container__arriba {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .toogler {
+    display: block;
+    margin-right: 25px;
+    margin-left: 10px;
+    line-height: 0.5;
+  }
+  .container__arriba .logo-secundario {
+    height: 42px;
+    width: 70px;
+
+    transform: translateX(-12px);
+  }
+  .container__arriba .logo,
+  .logo2 {
+    display: none;
+  }
+  .container__arriba .buscador {
+    height: 35px;
+    margin-left: -15px;
+    position: relative;
+  }
+  .container__arriba .buscador input {
+    height: 30px;
+    width: 95%;
+    position: absolute;
+    right: 0;
+    top: 6px;
+  }
+  .container__arriba .buscador span {
+    position: absolute;
+    left: 0;
+    top: -5px;
+    border: none;
+  }
+  .container__abajo .navegacion {
+    display: none;
+  }
+  .container__abajo .datos {
+    display: none;
+  }
+  .container__abajo .cart {
+    display: block;
+    font-size: 25px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
+  .container__abajo-direccion .locacion {
+    font-size: 23px;
+    line-height: 2;
+  }
+  .container__abajo-direccion .envio {
+    display: none;
+  }
+  .container__abajo-direccion .direccion {
+    display: none;
+  }
+  .container__abajo-direccion .envioCapital {
+    display: inline;
+    margin-left: 20px;
+  }
+  .container__abajo-direccion {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .header {
+    width: 100%;
+    height: 100px;
+    padding-top: 8px;
+    display: block;
+  }
+  /* .header{
+    display: none;
+  } */
+  header {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .toogler {
+    display: none;
+  }
+  .container__arriba {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container__arriba .logo-secundario {
+    display: none;
+  }
+  .container__arriba .logo {
+    width: 20%px;
+    height: 34px;
+  }
+  .container__arriba .logo2 {
+    width: 30%;
+    height: 39px;
+  }
+  .container__arriba .buscador {
+    width: 45%;
+    height: 39px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+    border-radius: 2px;
+  }
+  .container__arriba .buscador input {
+    width: 90%;
+    height: 36px;
+    transform: translateY(-4px);
+    border: none;
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  .container__arriba .buscador input:focus {
+    outline: none;
+  }
+  .container__arriba .buscador span {
+    border-left: 1px solid #333333;
+    padding-left: 7px;
+    font-size: 25px;
+    line-height: 1.5;
+  }
+  .container__abajo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    opacity: 70%;
+  }
+  .container__abajo-direccion {
+    width: 15%;
+    height: 40px;
+  }
+  .container__abajo-direccion .locacion {
+    font-size: 30px;
+    left: 0;
+    top: -14px;
+  }
+  .container__abajo-direccion .envio {
+    font-size: 12px;
+    color: #000000;
+    opacity: 50%;
+    left: 15%;
+    right: 0;
+  }
+  .container__abajo ul {
+    display: flex;
+    transform: translateX(-30px);
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .container__abajo li {
+    list-style: none;
+    margin-right: 15px;
+  }
+  .container__abajo a {
+    text-decoration: none;
+    color: #333333;
+  }
+  .container__abajo-direccion .direccion {
+    position: absolute;
+    bottom: 5px;
+    left: 30px;
+    font-size: 14px;
+  }
+  .container__abajo-direccion .envioCapital {
+    display: none;
+  }
+  .container__abajo .navegacion {
+    height: 39px;
+    width: 50%;
+    margin-top: 5px;
+    overflow: hidden;
+  }
+  .container__abajo .datos {
+    width: 30%;
+    height: 45px;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  .container__abajo .datos .logo-persona {
+    font-size: 20px;
+    position: absolute;
+    top: 1px;
+  }
+  .container__abajo .datos .logo-bell {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .container__abajo .datos .logo-car {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .container__abajo .datos .fulano {
+    margin-left: 25px;
+  }
+
+  .container__abajo .cart {
+    display: none;
+  }
 }
